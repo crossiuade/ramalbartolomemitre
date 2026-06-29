@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramal Bartolomé Mitre</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGACIÓN -->
+  <header class="navbar">
+   <div class="container header-flex">
+    <div class="brand">
+      <div class="brand-logo-container">
+        <img src="Img/LOGOMITRE.jpeg" alt="Logo Mitre" class="nav-logo-img">
+      </div>
+      <div class="brand-text">
+        <span class="sub">Centro de Transporte Ferroviario</span>
+        <span class="main">Línea Mitre</span>
+      </div>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Inicio</a>
+      <a href="ramalmitre.html" class="active">Ramales</a>
+      <a href="#">Consulta de viajes</a>
+      <a href="#">Servicios</a>
+      <a href="#">Mapa</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="hero-block">
+      <div class="hero-card-logo">
+        <img src="Img/LOGOMITRE.jpeg" alt="Logo Ramal" class="hero-logo-img">
+      </div>
+      <div class="hero-titles">
+        <span class="badge-tag">RAMAL</span>
+        <h1 class="hero-main-title">Ramal Bartolomé Mitre</h1>
+        <p class="hero-subtitle">Línea Mitre de trenes</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <p class="text-large">
+        El Ramal Bartolomé Mitre conecta la Terminal de Retiro con el barrio de Villa del Parque y la estación terminal homónima, atravesando los barrios de Palermo, Villa Crespo, Chacarita y Paternal. Cumple una función esencial como nexo entre el centro de Buenos Aires y las zonas residenciales del oeste de la ciudad, sirviendo a miles de pasajeros diariamente.
+      </p>
+      <div class="action-buttons">
+        <button class="btn btn-blue">Ver horarios</button>
+        <button class="btn btn-outline">Estado del servicio</button>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2 class="title-blue">Destinos principales</h2>
+      <div class="white-card">
+        <img src="Img/MAPAMITRE.jpeg" alt="Mapa del Ramal" class="full-img">
+      </div>
+    </section>
+
+    <section class="content-section">
+      <p class="text-muted">
+        El ramal conecta de manera directa el centro neurálgico de Buenos Aires con barrios del oeste de la ciudad. Desde Retiro, los pasajeros acceden a la estación Palermo (conexión con el Ferrocarril San Martín), continúan por Villa Crespo, tienen combinación en Chacarita (Línea B de subte), y finalizan su recorrido en Bartolomé Mitre con acceso a múltiples líneas de colectivo de la Red SUBE.
+      </p>
+
+      <h2 class="title-blue section-spacing-top">Frecuencia y dinámica del viaje</h2>
+      <p class="text-muted section-spacing-bottom">
+        Los servicios operan con un cronograma programado con frecuencias de entre 8 y 20 minutos dependiendo de la franja horaria. En horas pico (mañana y tarde) la frecuencia aumenta para satisfacer la alta demanda de pasajeros.
+      </p>
+
+
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span class="m-label">DISTANCIA TOTAL</span>
+          <span class="m-value">14,2 km</span>
+        </div>
+        <div class="metric-card">
+          <span class="m-label">ESTACIONES</span>
+          <span class="m-value blue-text">7 estaciones</span>
+        </div>
+        <div class="metric-card">
+          <span class="m-label">FRECUENCIA PICO</span>
+          <span class="m-value blue-text">cada 8 min</span>
+        </div>
+        <div class="metric-card">
+          <span class="m-label">TIEMPO VIAJE</span>
+          <span class="m-value blue-text">≈ 28 min</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2 class="title-blue">Horarios y Frecuencias Operativas</h2>
+      <p class="table-sub">Programación estimada del servicio Ramal Bartolomé Mitre</p>
+      
+      <div class="table-container">
+        <table class="timetable">
+          <thead>
+            <tr>
+              <th>Franja horaria</th>
+              <th>Tipo</th>
+              <th>Frec. pico</th>
+              <th>Frec. valle</th>
+              <th>Destino</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>05:00 – 09:00</strong></td>
+              <td><span class="t-badge t-pico">Pico</span></td>
+              <td>8 min</td>
+              <td class="empty-cell">—</td>
+              <td>Retiro / B. Mitre</td>
+            </tr>
+            <tr>
+              <td><strong>09:00 – 17:00</strong></td>
+              <td><span class="t-badge t-valle">Valle</span></td>
+              <td class="empty-cell">—</td>
+              <td>15 min</td>
+              <td>Retiro / B. Mitre</td>
+            </tr>
+            <tr>
+              <td><strong>17:00 – 21:00</strong></td>
+              <td><span class="t-badge t-pico">Pico</span></td>
+              <td>8 min</td>
+              <td class="empty-cell">—</td>
+              <td>Retiro / B. Mitre</td>
+            </tr>
+            <tr>
+              <td><strong>21:00 – 00:00</strong></td>
+              <td><span class="t-badge t-nocturno">Nocturno</span></td>
+              <td class="empty-cell">—</td>
+              <td>20 min</td>
+              <td>Retiro / B. Mitre</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-notice">* Los horarios pueden variar por mantenimiento, feriados o condiciones operativas. Consulte actualizaciones en tiempo real.</p>
+    </section>
+
+    <section class="content-section">
+      <div class="white-card accessibility-layout">
+        <div class="accessibility-text">
+          <h2 class="title-blue title-spacing-bottom">Accesibilidad</h2>
+          
+          <div class="info-chunk">
+            <h3>Movilidad Reducida (PMR)</h3>
+            <p>Todas nuestras installations cuentan con rampas, ascensores y personal capacitado para asistencia. Estaciones con acceso universal: Retiro, Chacarita y B. Mitre.</p>
+          </div>
+          
+          <div class="info-chunk">
+            <h3>Conexiones Automotor</h3>
+            <p>Acceso directo a Terminal de Ómnibus de Retiro. En Bartolomé Mitre hay conexión con líneas 15, 24, 57, 65, 71 y 168 de la Red SUBE.</p>
+          </div>
+          
+          <div class="info-chunk">
+            <h3>Estacionamiento</h3>
+            <p>Playa de estacionamiento disponible en Estación Bartolomé Mitre. Tarifa diferencial para usuarios con SUBE activa. Capacidad: 120 vehículos.</p>
+          </div>
+        </div>
+        
+        <div class="accessibility-box-right">
+          <img src="Img/ACCESIBILIDAD.jpeg" alt="Iconos Accesibilidad" class="full-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="contact-cta">
+        <h2>Contacto y Atención al Pasajero</h2>
+        <div class="cta-buttons">
+          <button class="btn-cta active">Centro de atención</button>
+          <button class="btn-cta">Enviar consulta</button>
+          <button class="btn-cta">Ver FAQ</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand-column">
+        <div class="footer-logo-box">
+          <img src="Img/LOGOMITRE.jpeg" alt="Logo Mitre Footer" class="footer-logo-img">
+        </div>
+        <div class="footer-brand-text">
+          <h3>Centro de Transporte Ferroviario</h3>
+          <p class="footer-text-normal">Línea Mitre · Estación Retiro</p>
+          <p class="footer-text-muted">Información, viajes y servicios del ramal.</p>
+        </div>
+      </div>
+      <div class="footer-info-column">
+        <h4>Contacto</h4>
+        <p class="footer-text-opacity">Atención al pasajero</p>
+        <p class="footer-text-bold">consultas@mitre.gov.ar</p>
+      </div>
+      <div class="footer-links-column">
+        <h4>Enlaces rápidos</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Consulta de viajes</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Mapa</a></li>
+        </ul>
+      </div>
+
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2026 Centro de Transporte Ferroviario — Línea Mitre. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
